@@ -4,6 +4,23 @@
 
 ---
 
+### Invocação inicial (prompt do `/grill-me`)
+
+```
+/grill-me
+
+Quero elaborar conceitualmente um Service Blueprint AS-IS da jornada
+"Solicitação de Análise de Projetos de Novos Edifícios para Habite-se no
+Distrito Federal" (CBMDF/PSCIP). Considere como contexto o artefato
+@B_relatorio_assistente_v3.md. Siga a metodologia de Service Blueprint de
+Shostack: as cinco camadas (Evidências Físicas, Ações do Cidadão, Frontstage,
+Backstage, Processos de Suporte), as três linhas divisórias (Linha de
+Interação, Linha de Visibilidade, Linha de Interação Interna) e os fail points.
+Os atores de bastidor incluem o Triador da DIEAP, o AGFP e o colegiado do CTDSCI.
+```
+
+---
+
 ### Rodada 0 — Esclarecimento de escopo
 
 **Assistente:** Antes de começar, percebi uma inconsistência: o argumento inicial menciona a jornada "Atendimento ao Seguro-Desemprego pela URA da Caixa", mas os artefatos `B_relatorio_assistente_v*.md` tratam do serviço "Solicitação de Análise de Projetos de Novos Edifícios para Habite-se" (CBMDF) — que também é o serviço registrado no `README.md`. Pergunta 1: qual serviço deve ser objeto desta sessão? **Recomendação:** CBMDF/Habite-se, por já possuir toda a deep research (Parte B) como evidência/contexto.

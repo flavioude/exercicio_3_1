@@ -1,4 +1,3 @@
-cat << 'EOF' > pesquisa_service_blueprint_v3.md
 # PESQUISA PARA CONSTRUÇÃO DE SERVICE BLUEPRINT AS-IS (V3.0)
 ## Serviço: Análise de Projeto de Segurança Contra Incêndio e Pânico (PSCIP)
 **Finalidade:** Verificação de conformidade técnica para subsidiar futuros pedidos de Licenciamento, Regularização ou Vistoria de Habite-se.  
@@ -267,4 +266,3 @@ Para garantir a integridade do Service Blueprint AS-IS final, o nível de certez
 
 ### Recomendação Institucional Imediata:
 Antes de renderizar o Service Blueprint AS-IS definitivo em ferramentas visuais (Miro/Figma), o designer de serviços deve realizar uma **entrevista de validação sistêmica de 1 hora** com o Gestor de TI da DESEG e com a Chefia da DIEAP. O objetivo exclusivo é preencher as lacunas marcadas como **[PENDENTE]**, mapeando os nomes reais dos softwares de retaguarda e o comportamento exato das automações de assinatura e triagem eletrônica.
-EOF
