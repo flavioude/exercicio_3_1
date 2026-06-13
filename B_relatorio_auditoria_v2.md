@@ -40,6 +40,20 @@ A V2 corrige parte significativa das falhas da versão anterior. Houve melhora r
 
 Apesar disso, a V2 ainda **não pode ser considerada plenamente confiável** como representação AS-IS. Ela continua misturando informações oficiais, inferências plausíveis e suposições operacionais não comprovadas. Além disso, introduz novas falhas, especialmente ao transformar hipóteses técnicas de sistema em fatos, citar normas de forma inadequada e descrever o Conselho Técnico como se fosse uma instância recursal ordinária da DIEAP.
 
+## Quadro-síntese dos pontos ainda abertos na v2 (a corrigir na v3)
+
+| # | Achado residual da v2 | Categoria | Correção exigida para a v3 |
+| --- | --- | --- | --- |
+| 1 | Sistemas não comprovados: **DESEGWEB, módulo de triagem, módulo de recursos, visualizador DWF integrado, assinador ICP-Brasil, emissor de QR Code** | Validação de sistemas | Marcar todos como **[PENDENTE]** até validação com a TI/DESEG; não tratar como fato. |
+| 2 | Base normativa: **Decreto nº 42.502/2021** tratado como regulamento do RSIP-DF sem demonstrar a relação | Correção normativa | Referenciar o **Decreto nº 21.361/2000** (RSIP-DF citado pela IN nº 01/2021) ou justificar o dispositivo do 42.502/2021. |
+| 3 | **CTDSCI** descrito como "Conselho Técnico da DIEAP" / instância recursal ordinária | Correção institucional | Reescrever como Conselho Técnico do DSCI, instância superior para casos omissos, medidas compensatórias e dispensa de exigências. |
+| 4 | **DIEAP** grafada como "Divisão de Exame e Aprovação de Projetos" | Erro factual | Corrigir para **Diretoria de Estudos e Análise de Projetos**. |
+| 5 | Documentos e fail points não estruturados **por modalidade** de PSCIP | Detalhamento | Distinguir obra inicial, existente, modificação, bem tombado, área não regularizada, retificação, cópia digital. |
+| 6 | Fronteira com a **vistoria para Habite-se** mal delimitada | Delimitação de escopo | Inserir seção "Fronteira do serviço": PSCIP encerra no parecer; vistoria (DIVIS) é handoff posterior. |
+| 7 | Prazo da Análise Prévia classificado como **"improrrogável/taxativo"** | Excesso interpretativo | Remover a qualificação jurídica não comprovada; manter apenas "3 dias úteis". |
+| 8 | Regra de cancelamento genérica ("não atendimento reiterado") | Imprecisão | Registrar a **regra dos dois retornos** da mesma exigência. |
+| 9 | Regra dos **10 MB** apresentada como rígida | Imprecisão | Admitir subdivisão do DWF quando exceder o limite, conforme o Anexo II. |
+
 ---
 
 # 2. Verificação das falhas do audit_v1

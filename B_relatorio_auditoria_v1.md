@@ -21,6 +21,24 @@ As principais deficiências identificadas foram:
 * Utilização de hipóteses apresentadas como fatos;
 * Grau de confiança declarado incompatível com as evidências apresentadas.
 
+## Quadro-síntese dos achados da auditoria v1
+
+| # | Achado | Tipo | Como deveria ser na v2 |
+| --- | --- | --- | --- |
+| 1 | Descrição imprecisa do serviço ("Análise para Habite-se") | Erro factual | Corrigir para **PSCIP — Análise de Projeto de Segurança Contra Incêndio e Pânico**; Habite-se é consequência posterior, não o objeto. |
+| 2 | Formato do projeto informado como **PDF** | Erro factual | Corrigir para **DWF** (arquivo único, limite de 10 MB), conforme a Portaria/Anexo II de Análise Digital. |
+| 3 | Integração com **Gov.br** afirmada sem fonte | Inferência não sustentada | Remover ou marcar como hipótese a validar. |
+| 4 | Integração automática com **APIs CREA/CAU** | Inferência não comprovada | Remover ou marcar como hipótese a validar. |
+| 5 | **Assinador ICP-Brasil / QR Code** como fato | Hipótese como fato | Marcar como [PENDENTE] até validação com a DESEG/DIEAP. |
+| 6 | Omissão da etapa formal de **Análise Prévia** (3 dias úteis) | Omissão de etapa | Incluir na jornada, no backstage e na matriz. |
+| 7 | Omissão do ator **AGFP** (Agente Fiscalizador de Projetos) | Omissão de ator | Incluir como ator técnico central do exame. |
+| 8 | Omissão do **Conselho Técnico** (instância especializada) | Omissão de etapa/ator | Incluir como instância superior (casos omissos, medidas compensatórias). |
+| 9 | Omissão de documentos: **TRT, Lista de Verificação do SCIP, memoriais de cálculo** | Omissão documental | Incluir todos como evidências/documentos obrigatórios. |
+| 10 | Omissão de normativos: **Portaria de Análise Digital**, competências da DIEAP, NBRs específicas | Omissão normativa | Citar nominalmente os normativos que regem cada etapa. |
+| 11 | Prazos oficiais substituídos por estimativas vagas | Imprecisão | Usar os prazos da Carta de Serviços (3, 15, +15, 10, 15 dias úteis; 30 corridos). |
+| 12 | Fail point de **cancelamento por reincidência** ausente | Omissão de fail point | Registrar a regra dos dois retornos da mesma exigência. |
+| 13 | Grau de confiança superestimado | Inconsistência | Recalibrar separando fato, inferência e hipótese. |
+
 ---
 
 # 1. ERROS FACTUAIS

@@ -18,6 +18,15 @@ Sua missão é produzir uma pesquisa completa, rastreável e baseada em evidênc
 * O resultado final consiste na emissão de parecer técnico e pranchas certificadas digitalmente com QR Code.
 * Esses documentos servem como anuência do CBMDF para emissão da Carta de Habite-se pelo Governo do Distrito Federal.
 
+### Delimitação e Fronteira do Serviço (escopo inequívoco)
+
+* **Serviço (objeto da pesquisa):** Análise de Projeto de Segurança Contra Incêndio e Pânico (PSCIP), modalidade **Obra Inicial** (edificações novas).
+* **Órgão executor:** Corpo de Bombeiros Militar do Distrito Federal (CBMDF) — DESEG/DIEAP.
+* **Canal de atendimento:** sistema eletrônico SCIP/SCIPWeb (jornada 100% digital).
+* **Início da jornada:** consulta de requisitos e peticionamento pelo responsável técnico.
+* **Fim da jornada (fronteira do serviço):** emissão do **Parecer Técnico de Aprovação** e das pranchas chanceladas com QR Code. A **Carta de Habite-se** é ato posterior do GDF, e a **vistoria predial (DESEG/DIVIS)** é um *handoff* para outro serviço — ambos **fora do escopo** desta pesquisa, citados apenas como dependências da jornada ampliada.
+* **Atenção à ambiguidade:** o serviço NÃO é "emissão de Habite-se"; é a análise de projeto cujo parecer é pré-requisito para o Habite-se. Toda a pesquisa deve manter essa distinção.
+
 ---
 
 # OBJETIVO DA PESQUISA
@@ -276,14 +285,27 @@ Mapear:
 
 ---
 
-# ETAPA 7 — MATRIZ SERVICE BLUEPRINT
+# ETAPA 7 — MATRIZ SERVICE BLUEPRINT (METODOLOGIA DE SHOSTACK)
 
-Consolidar os resultados na seguinte estrutura:
+Consolidar os resultados num **Service Blueprint AS-IS** seguindo estritamente a metodologia de Shostack, com **as 5 camadas em linhas** e **as etapas da jornada em colunas** (mínimo de 5 etapas na ótica do cidadão).
 
-| Etapa da Jornada | Ação do Usuário | Frontstage | Linha de Visibilidade | Backstage | Sistemas | Evidência Física/Digital | Normativos Aplicáveis | Tempo de Espera | Fail Points |
-| ---------------- | --------------- | ---------- | --------------------- | --------- | -------- | ------------------------ | --------------------- | --------------- | ----------- |
+## Camadas obrigatórias (nesta ordem, de cima para baixo)
 
-Preencher uma linha para cada etapa identificada.
+1. **Evidências Físicas** — artefatos tangíveis/digitais percebidos pelo cidadão em cada etapa.
+2. **Ações do Cidadão** — o que o usuário/responsável técnico faz em cada etapa.
+3. *(linha divisória)* **— Linha de Interação —**
+4. **Frontstage** — ações visíveis ao cidadão (telas, atendentes, sistema na "linha de frente").
+5. *(linha divisória)* **— Linha de Visibilidade —**
+6. **Backstage** — ações internas invisíveis ao cidadão (analistas, chefias, tramitação).
+7. *(linha divisória)* **— Linha de Interação Interna —**
+8. **Processos de Suporte** — sistemas, infraestrutura e retaguarda que sustentam o backstage.
+
+## Marcações adicionais
+
+* Marcar os **fail points** (pontos de falha) em cada etapa em que ocorrem.
+* Registrar **tempo de espera/prazos** e **normativos aplicáveis** por etapa (como linha adicional ou anotação, sem substituir nenhuma das 5 camadas acima).
+
+Preencher uma célula para cada cruzamento camada × etapa.
 
 ---
 

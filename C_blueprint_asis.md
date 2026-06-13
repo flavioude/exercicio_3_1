@@ -8,6 +8,8 @@
 
 Legenda: ⚠️ = informação não confirmada pela pesquisa documental (hipótese a validar com a equipe de TI/gestão da DESEG).
 
+**As 5 camadas de Shostack representadas nas linhas desta matriz são:** (1) **Evidências Físicas**, (2) **Ações do Cidadão**, (3) **Frontstage** (visível), (4) **Backstage** (invisível) e (5) **Processos de Suporte** (retaguarda). Elas são separadas pelas 3 linhas divisórias — *Linha de Interação* (entre Ações do Cidadão e Frontstage), *Linha de Visibilidade* (entre Frontstage e Backstage) e *Linha de Interação Interna* (entre Backstage e Processos de Suporte). A linha **Prazos / Tempo de Espera** (topo) e a linha **⚠ Fail points** (base) são complementos transversais, não camadas de Shostack.
+
 ---
 
 ## Matriz do Blueprint (camadas × etapas)
