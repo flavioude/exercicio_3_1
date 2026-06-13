@@ -6,6 +6,26 @@
 
 ---
 
+## REGISTRO DE EVOLUÇÃO — RESPOSTAS AOS GATILHOS DO audit_v2
+
+Esta v3 evolui sobre a v2 endereçando, ponto a ponto, as falhas residuais e as novas falhas apontadas na segunda auditoria (`B_relatorio_auditoria_v2.md`). Cada delta abaixo cita o gatilho que o motivou:
+
+| Gatilho do audit_v2 | Delta aplicado nesta v3 |
+| --- | --- |
+| **§2.15** — Decreto nº 42.502/2021 tratado como regulamento do RSIP-DF sem demonstrar a relação | Substituído pelo **Decreto Distrital nº 21.361/2000 (RSIP-DF)**, expressamente referenciado pela IN nº 01/2021 (ver Etapa 4). |
+| **§3.13** — denominação "Divisão de Exame e Aprovação de Projetos" | Corrigida para **Diretoria de Estudos e Análise de Projetos (DIEAP)** em todo o documento. |
+| **§2.10 / §3.7 / §4.6** — CTDSCI descrito como "Conselho Técnico da DIEAP" / instância recursal ordinária | Reescrito como **Conselho Técnico do DSCI (CTDSCI)**, instância superior acionada só em casos omissos, soluções alternativas, medidas compensatórias ou dispensa de exigências (ver Backstage §4). |
+| **§2.19 / §3.1–3.5 / §4.2** — sistemas (DESEGWEB, assinador, QR Code, módulos, servidores) afirmados como fato | Todos remarcados como **[PENDENTE DE VALIDAÇÃO]** e isolados na Etapa 6 e na Etapa 8 (grau de confiança). |
+| **§2.2** — regra dos 10 MB apresentada como rígida | Reescrita admitindo **subdivisão conforme o Anexo II** quando o arquivo exceder 10 MB (ver Etapa 1, item 3). |
+| **§2.6 / §3.6** — Análise Prévia qualificada como "improrrogável/taxativa" | Qualificação jurídica **removida**; mantido apenas o prazo de 3 dias úteis. |
+| **§2.9** — cancelamento genérico por "não atendimento reiterado" | Especificada a **regra dos dois retornos** da mesma exigência (ver Backstage §3 e fail points). |
+| **§2.18 / §4.3** — fronteira com a vistoria mal definida | Adicionada a seção **"Fronteira do Serviço"** (handoff para a DIVIS) logo abaixo. |
+| **§4.4** — modalidades de PSCIP não estruturadas | Adicionada a seção **"Modalidades Específicas"** com as 7 modalidades da IN nº 01/2021. |
+| **§3.11** — Lei de Processo Administrativo citada genericamente | Citadas expressamente a **Lei nº 9.784/1999 e a Lei Distrital nº 2.834/2001** (ver Etapa 4). |
+| **§2.22** — NBRs tratadas como aplicáveis em todos os casos | Ajustado para aplicação **caso a caso** conforme ocupação, risco e medidas (ver Backstage §3). |
+
+---
+
 ## FRONTEIRA DO SERVIÇO E ESCOPO OPERACIONAL
 A aprovação do PSCIP e a consequente emissão do Parecer Técnico de Aprovação encerram estritamente o serviço de análise de projeto. Esta jornada **não** se confunde com a emissão direta da Carta de Habite-se ou com a execução de vistorias prediais. A etapa posterior de vistoria para emissão de Laudo Técnico pertence a outra estrutura da DESEG (Divisão de Vistorias - DIVIS), configurando uma dependência externa obrigatória e um *handoff* para a jornada ampliada do usuário junto ao Governo do Distrito Federal (GDF).
 
